@@ -3,8 +3,8 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() {
-	
+int main() 
+  {
     int n,i;
     int a1,a2,a3,a4,a5,sum=0;
     scanf("%d", &n);
@@ -15,8 +15,6 @@ int main() {
     a5=n/10000;
     sum= a1+a2+a3+a4+a5;
     printf("%d",sum);
-    
-    //Complete the code to calculate the sum of the five digits on n.
     return 0;
-}
+  }
 
