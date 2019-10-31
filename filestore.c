@@ -4,9 +4,8 @@ int main()
     FILE *fptr;
     int Book_id,release_year,price;
     char author[30],language[30],book_name[30];
-     fptr = fopen("Table", "w");
- 
-    if (fptr == NULL)
+    fptr = fopen("Table", "w");
+     if (fptr == NULL)
     {
         printf("File does not exists \n");
         return 0;
