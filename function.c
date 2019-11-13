@@ -27,6 +27,7 @@ int max_of_four(int a, int b, int c, int d)
    else
    return d;    
 }
+
 int main() 
 {
     int a, b, c, d;
