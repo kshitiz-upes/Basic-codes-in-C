@@ -7,4 +7,5 @@ jwObj_array( "anArray");                         // start "anArray": [...]
     jwArr_int( 1 );
     jwArr_int( 2 );
 jwEnd();                                         // end the array
+
 err= jwClose();
